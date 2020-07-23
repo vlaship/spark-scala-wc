@@ -20,6 +20,9 @@ dependencies {
     implementation "org.scala-lang:scala-compiler:$scalaVersion"
 
     implementation "org.apache.spark:spark-core_$sparkVersion"
+
+    testImplementation 'junit:junit:4.13'
+
 }
 
 
